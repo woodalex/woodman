@@ -61,6 +61,7 @@ else
 			else {
                 echo "O Cliente com o ID ".$pesquisar." não existe!<br>";
                 }
+$conn->close();
 ?>
 
 </body>
